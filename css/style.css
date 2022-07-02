@@ -1,0 +1,422 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #efe6e4;
+}
+.wrapper {
+    margin: 0;
+    padding: 0;
+}
+header {
+    color: #533738;
+    font-family: "Montserrat";
+    font-size: 16px;
+    padding-top: 36px;
+}
+.banner {
+    height: 715px;
+    background-image: url(img/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash%201.jpg);
+    font-family: "Montserrat";
+}
+.logo {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 18px;
+}
+.logo span {
+    text-transform: uppercase;
+}
+.logo img {
+    height: 25px;
+}
+.header {
+    display: flex;
+}
+nav {
+    margin-left: 85px;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+    margin-left: 23px;
+}
+nav a {
+    text-decoration: none;
+    color: #533738;
+}
+nav a:hover {
+    text-decoration: overline;
+}
+.banner-text {
+    padding-top: 91px;
+    padding-left: 185px;
+}
+.banner-text h1 {
+    font-weight: 500;
+    font-size: 50px;
+    width: 535px;
+}
+.banner-text p {
+    width: 495px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.btn {
+    width: 310px;
+    height: 74px;
+    background-color: #CC8B86;
+    border-radius: 2px;
+}
+.btn a {
+    text-decoration: none;
+    color: #533738;
+    font-weight: 500;
+}
+.btn-a {
+    padding-top: 28px;
+    padding-left: 80px;
+}
+.about {
+    background-color: #efe6e4;
+    height: 666px;
+    font-family: "Montserrat";
+}
+.about-block {
+    display: flex;
+}
+.about h2 {
+    padding-top: 75px;
+    color: #533738;
+    font-weight: 400;
+    text-align: center;
+}
+.about-img {
+    padding-left: 200px;
+    padding-top: 40px;
+}
+.about-img img {
+    height: 465px;
+    width: 445px;
+}
+.about-txt {
+    padding-left: 65px;
+    padding-top: 20px;
+    width: 530px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.info {
+    background-color: #8D7370;
+    height: 275px;
+    display: flex;
+    font-family: "Montserrat";
+    color: #fff;
+    text-align: center;
+}
+.exp {
+    padding-left: 220px;
+}
+.pro {
+    padding-left: 269px;
+}
+.award {
+    padding-left: 269px;
+}
+.info h4 {
+    font-weight: 400;
+    font-size: 50px;
+}
+.info p {
+    font-size: 30px;
+}
+.work {
+    font-family: "Montserrat"; 
+}
+.work h2 {
+    color: #533738;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-left: 200px;
+    font-weight: 400;
+    padding-top: 65px;
+}
+.gallery {
+    padding-left: 200px;
+    display: flex;
+}
+.room_1 {
+    height: 451px;
+    width: 488px;
+    background-image: url(img/image%2055.png);
+    background-size: cover;
+}
+.room_2 {
+    height: 451px;
+    width: 692px;
+    background-image: url(img/Rectangle%20134.png);
+    background-size: cover;
+    margin-left: 20px;
+}
+.block {
+    visibility: hidden;
+    height: 451px;
+    width: 488px;
+    position: absolute;
+    color: #fff;
+    background-color: rgba(100, 72, 69, 0.6);
+}
+.room_1:hover .block {
+    visibility: visible;
+}
+.block h3 {
+    text-align: center;
+    padding-top: 86px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.block p {
+    font-size: 18px;
+    line-height: 1.5;
+    padding-left: 35px;
+}
+.block-2 {
+    visibility: hidden;
+    height: 451px;
+    width: 692px;
+    position: absolute;
+    color: #fff;
+    background-color: rgba(100, 72, 69, 0.6);
+}
+.room_2:hover .block-2 {
+    visibility: visible;
+}
+.block-2 h3 {
+    text-align: center;
+    padding-top: 86px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.block-2 p {
+    font-size: 18px;
+    line-height: 1.5;
+    padding-left: 35px;
+}
+.gall_down {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 200px;
+}
+.room_3 {
+    height: 451px;
+    width: 692px;
+    background-image: url(img/Rectangle%20132.png);
+    background-size: cover;
+}
+.block-3 {
+    visibility: hidden;
+    height: 451px;
+    width: 692px;
+    position: absolute;
+    color: #fff;
+    background-color: rgba(100, 72, 69, 0.6);
+}
+.block-3 h3 {
+    text-align: center;
+    padding-top: 86px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.block-3 p {
+    font-size: 18px;
+    line-height: 1.5;
+    padding-left: 35px;
+}
+.room_3:hover .block-3 {
+    visibility: visible;
+}
+.room_4 {
+    height: 451px;
+    width: 488px;
+    background-image: url(img/image%2056.png);
+    background-size: cover;
+    margin-left: 20px;
+}
+.block-4 {
+    visibility: hidden;
+    height: 451px;
+    width: 488px;
+    position: absolute;
+    color: #fff;
+    background-color: rgba(100, 72, 69, 0.6);
+}
+.room_4:hover .block-4 {
+    visibility: visible;
+}
+.block-4 h3 {
+    text-align: center;
+    padding-top: 86px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.block-4 p {
+    font-size: 18px;
+    line-height: 1.5;
+    padding-left: 35px;
+}
+.more {
+    padding-top: 40px;
+    text-align: center;
+}
+.more a {
+    color: #533738;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+}
+.team {
+    margin-top: 60px;
+    background-color: #E2C4BA;
+    font-family: "Montserrat";
+    color: #533738;
+}
+.team h2 {
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+}
+.girls {
+    display: flex;
+    padding-left: 230px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.masha p {
+    width: 320px;
+}
+.sasha {
+    padding-left: 38px;
+    padding-right: 38px;
+}
+.sasha p {
+    width: 320px;
+}
+.katya p {
+    width: 320px;
+}
+.how {
+    display: flex;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 200px;
+    padding-bottom: 80px;
+}
+.how p {
+    width: 285px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.first {
+    margin-right: 20px;
+}
+.rw {
+    display: flex;
+}
+.reviews {
+    font-family: "Montserrat";
+    color: #533738;
+    padding-bottom: 65px;
+}
+.reviews h2 {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 65px;
+}
+.review-txt {
+    line-height: 1.5;
+    width: 407px;
+    font-size: 18px;
+    padding-left: 29px;
+    padding-top: 120px;
+}
+.review-img {
+    margin-left: 20px;
+}
+.img206 {
+    margin-top: 20px;
+    margin-right: 29px;
+}
+.left {
+    margin-left: 150px;
+    padding-top: 260px;
+}
+.right {
+    margin-right: 150px;
+    padding-top: 260px;
+}
+.request {
+    background-color: #8D7370;
+    color: #fff;
+    font-family: "Montserrat";
+    display: flex;
+}
+.request h2 {
+    font-size: 40px;
+    font-weight: 400; 
+    padding-top: 50px;
+    padding-left: 180px;
+}
+.request p {
+    width: 507px;
+    padding-left: 180px;
+}
+.form {
+    padding-left: 180px;
+}
+input[type=text], input[type=tel] {
+    background-color: #8d7370;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    width: 508px;
+}
+input[type=text] {
+    padding-top: 44px;
+}
+input[type=tel] {
+    padding-top: 35px;
+}
+input[type=submit] {
+    margin-top: 31px;
+    width: 310px;
+    height: 70px;
+    background-color: #CC8B86;
+    border: 0;
+    font-size: 20px;
+    color: #533738;
+}
+::placeholder {
+    color: #F6EDE9;
+    font-size: 18px;
+}
+iframe {
+    padding-left: 20px;
+}
+footer {
+    height: 107px;
+    font-family: "Montserrat";
+}
+.foot-txt {
+    display: flex;
+    text-align: center;
+    padding-left: 320px;
+}
+.foot-txt p {
+    text-align: center;
+    margin: 100px;
+}
